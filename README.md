@@ -47,12 +47,3 @@ This handler appears twice - once in the ````run```` handler and once in the ```
 **Changing the timestamp formatting**
 
 In the ````formatDate(x)```` handler, ````x```` is the date passed. Inside the function, the date/time formatting can be altered to suit your needs.
-
-## IAQ (Infrequently asked questions)
-### Why are you doing this?
-I wanted a quick and dead-simple way to timestamp a file. When saved as an application from AppleScript Editor, and with a few trivial extra steps, TimeStamp can be dragged to the Finder toolbar for easy access to both its applet and droplet functions.
-
-### Okay, so why not just create a Service?
-**Short answer**: I do what I want.
-
-**Long answer**: Creating an applet/droplet gives me the opportunity to execute two different methods of timestamping a file in one codebase. For more, see the "Short answer" above.
